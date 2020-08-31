@@ -2,8 +2,6 @@ import unittest,time,os
 from common.HTMLTestRunner import HTMLTestRunner
 from test_cases.testGet import TestGet
 from test_cases.testPost import TestPost
-
-'''复制文件BeautifulReport，至python安装Lib\site-packages位置下'''
 from BeautifulReport import BeautifulReport
 
 if __name__ == "__main__":

@@ -13,7 +13,7 @@ class Base(unittest.TestCase):   # 继承unittest.TestCase
     def setUpClass(cls):
         if cls.__name__ != 'Base':
             sheet_name = cls.__name__
-            cls.data_list = ExcelUtil.excel_to_list(cls,'../data/demodata.xls',sheet_name)
+            cls.data_list = ExcelUtil.excel_to_list(cls,'./data/demodata.xls',sheet_name)
 
     # 获取数据
     def get_case_data(self, case_name):
