@@ -19,7 +19,7 @@ class ExcelUtil():
                 # 如果查询不到会返回None
 
 
-if __name__ == '__main__':   # 测试一下自己的代码
+if __name__ == '__main__':   #测试一下自己的代码
     exl = ExcelUtil()
     data_list = exl.excel_to_list("../data/demodata.xls", "TestGet")  # 读取excel，TestGetRequest工作簿的所有数据
     data = ['test_get','test_getRankings']
